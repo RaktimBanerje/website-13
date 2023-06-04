@@ -61,7 +61,105 @@ a {
 
     .title {
         text-align: center;
-        font-size: calc(1.325rem + .9vw) !important;
+        /* font-size: calc(1.325rem + .9vw) !important; */
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .mr-button, .mr-button-1, .mr-button-2 {
+        width: 100%;
+    }
+}
+
+/* Header */
+.header {
+    background-color: white;
+}
+
+.logo-container img {
+    width: 100px;
+}
+
+.topbar {
+    background-color: #1D5CA9;
+}
+
+.nav-container {
+    clip-path:polygon(5% 0%, 100% 0%, 100.0% 100%, 0% 100%);
+}
+
+.nav-container p {
+    margin-bottom: 0px;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+/* Banner */
+.banner {
+    background-image: url('images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .container {
+    height: 700px;
+}
+
+.banner .banner-title {
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+}
+
+.banner p {
+    color: black;
+}
+
+@media (max-width:480px) {
+    .banner .banner-title {
+        font-weight: bold;
+        color: black;
+        font-size: 30px;
+    }
+    
+    .banner .container {
+        height: fit-content;
+    }
+
+    .banner .container .row {
+        padding: 40px 0px ;
+    }
+}
+
+
+/* Notice */
+.notice {
+    background: linear-gradient(118.04deg, #230023 0%, #1D5CA9 90.35%);
+    padding: 20px;
+    width: 80%;
+}
+
+.notice .notice-description {
+    border-left: 1px solid white;
+}
+
+.notice .notice-description p {
+    font-weight: 200;
+}
+
+@media (max-width:480px) {
+    .notice {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .notice .mr-button {
+        width: 100%;
     }
 }
 
@@ -89,6 +187,7 @@ a {
 
 .form-container form label {
     color: white;
+    margin-bottom: 5px;
 }
 
 .form-container form input {
@@ -103,6 +202,11 @@ a {
     border-radius: 0px;
 }
 
+@media (max-width:480px) {
+    .form-container {
+        padding: 20px;
+    }
+}
 
 /* Contact */
 .contact {
@@ -245,7 +349,7 @@ a {
 }
 
 .brochure-1 {
-    background: #7E566A;
+    background: #1F4587;
 }
 /* Footer */
 footer {
