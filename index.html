@@ -5,28 +5,38 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <link rel="icon" href="assets/images/fab-icon.png" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css">
+
+    <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Poppins Font -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link href="assets/style.css" rel="stylesheet">
 
-    <title>MR College Of Education</title>
+    <title>M R Group Of Colleges & Hospitals - Best Nursing College</title>
+
 </head>
 
 <body>
 
     <!-- Header -->
-    <section class="header">
+    <section class="header" id="home">
         <div class="container-fluid">
             <div class="">
                 <div class="row">
@@ -35,58 +45,58 @@
                             <img class="img-fluid" src="assets/images/logo.png">
                         </div>
                     </div>
-                    <div class="col-md-9 col-6 p-0">
+                    <div class="col-md-9 col-6 p-0 d-none d-md-block">
                         <div class="nav-container">
                             <div class="row justify-content-center topbar pe-5">
                                 <ul class="nav justify-content-end">
                                     <li class="nav-item d-none d-md-block">
-                                        <a class="nav-link mt-1" href="#">
+                                        <a class="nav-link mt-1" href="mailto:mrgroupadmission@gmail.com">
                                             <p class="text-white"><i class="fa fa-envelope me-2" aria-hidden="true"></i>info.motherteresa@gmail.com</p>
                                         </a>
                                     </li>
                                     <li class="nav-item d-none d-md-block">
-                                        <a class="nav-link mt-1" href="#">
+                                        <a class="nav-link mt-1" href="tel:+919051044044">
                                             <p class="text-white"><i class="fa fa-phone me-2" aria-hidden="true"></i> +91 123 456 789 0</p>
                                         </a>
                                     </li>
                                     <li class="nav-item d-none d-md-block">
-                                        <button class="btn btn-outline-light mr-button call-to-action my-2" style="padding: 5px 50px;">GET FREE QUOTE</button>
+                                        <button class="btn btn-outline-light mr-button call-to-action my-2" data-bs-toggle="modal" data-bs-target="#myModal" style="padding: 5px 50px;">GET FREE QUOTE</button>
                                     </li>
                                 </ul>
                             </div>
                             <div class="row justify-content-center navbar pe-5 d-none d-md-block">
                                 <ul class="nav justify-content-end">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="#home">
                                             <p class="text-dark">HOME</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="#about">
                                             <p class="text-dark">ABOUT US</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="#notice">
                                             <p class="text-dark">NOTICE</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="#courses">
                                             <p class="text-dark">COURSES</p>
                                         </a>
                                     </li><li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="#faq">
                                             <p class="text-dark">FAQs</p>
                                         </a>
                                     </li>
                                     </li><li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="#testimonial">
                                             <p class="text-dark">TESTIMONIAL</p>
                                         </a>
                                     </li>
                                     </li><li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="#blog">
                                             <p class="text-dark">BLOGS</p>
                                         </a>
                                     </li>
@@ -94,33 +104,56 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-9 col-6 p-0 d-flex d-md-none align-items-center">
+                        <button class="btn mr-button-1 mb-3 mb-md-0 me-4" data-bs-toggle="modal" data-bs-target="#myModal" style="padding: 13px 0px;">GET FREE QUOTE</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Banner -->
-    <section>
+    <section id="notice">
         <div class="container-fluid banner p-0">
             <div class="container d-flex align-items-center">
                 <div class="row">
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
                         <div>
                             <h1 class="title banner-title">Grow yourself <br> with us for <br>better Future</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                            <p class="banner-text">Lorem Ipsum is simply dummy text of the printing & typesetting industry. Lorem Ipsum has been the industry's standard.</p>
                         </div>
                     </div>
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
                         <div class="notice">
-                            <div class="mb-3">
+                            <div class="mb-4">
                                 <img class="img-fluid" src="assets/images/vector-2.png">
                                 <p class="title text-white d-inline ms-3">NOTICE</p>
                             </div>
-                            <h5 class="title text-white mb-4">Lorem Ipsum is simply dummy</h5>
-                            <div class="notice-description">
-                                <p class="text-white ms-4">There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour...</p>
-                            </div>
-                            <button class="btn btn-outline-light mr-button call-to-action mx-2">VIEW NOTICE</button>
+                            <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <h3 class="title text-white mb-4">Lorem Ipsum is simply dummy</h3>
+                                    <div class="notice-description">
+                                        <p class="text-white ms-4">There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour...</p>
+                                    </div>
+                                    <a href="assets/notice.pdf" download class="btn btn-outline-light mr-button call-to-action mx-2">VIEW NOTICE</a>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <h3 class="title text-white mb-4">Lorem Ipsum is simply dummy</h3>
+                                    <div class="notice-description">
+                                        <p class="text-white ms-4">There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour...</p>
+                                    </div>
+                                    <a href="assets/notice.pdf" download class="btn btn-outline-light mr-button call-to-action mx-2">VIEW NOTICE</a>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <h3 class="title text-white mb-4">Lorem Ipsum is simply dummy</h3>
+                                    <div class="notice-description">
+                                        <p class="text-white ms-4">There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour...</p>
+                                    </div>
+                                    <a href="assets/notice.pdf" download class="btn btn-outline-light mr-button call-to-action mx-2">VIEW NOTICE</a>
+                                  </div>
+                                </div>
+                              </div>
                         </div>
                     </div>
                 </div>
@@ -131,24 +164,24 @@
     <!-- Form -->
     <section>
         <div class="container-fluid form-container">
-            <form>
+            <form action="handler.php" method="POST">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group mb-2">
                             <label>Your Name</label>
-                            <input type="text" class="form-control mr-input" name="name">
+                            <input type="text" class="form-control mr-input" name="name" required>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="form-group mb-2">
                             <label>Your Phone Number</label>
-                            <input type="text" class="form-control mr-input" name="name">
+                            <input type="text" class="form-control mr-input" name="phone" maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits" required required>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="form-group mb-2">
                             <label>Your Email Address</label>
-                            <input type="text" class="form-control mr-input" name="name">
+                            <input type="email" class="form-control mr-input" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Invalid email address" required>
                         </div>
                     </div>
                 </div>
@@ -156,7 +189,7 @@
                     <div class="col-md-6">
                         <div class="form-group mb-2">
                             <label>Courses</label>
-                            <select class="form-select mr-input" name="course">
+                            <select class="form-select mr-input" name="course" required>
                                 <option>--Select--</option>
                                 <option>Option 1</option>
                                 <option>Option 2</option>
@@ -166,7 +199,7 @@
                     <div class="col-md-6">
                         <div class="form-group mb-2">
                             <label>Message</label>
-                            <input type="text" class="form-control mr-input" name="message">
+                            <input type="text" class="form-control mr-input" name="message" required>
                         </div>
                     </div>
                 </div>
@@ -178,11 +211,11 @@
     </section>
 
     <!-- About Us -->
-    <section>
+    <section id="about">
         <div class="container-fluid mr-section about">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-md-4 d-flex align-items-center">
+                    <div class="col-md-6 d-flex align-items-center">
                         <div class="image d-none d-md-block">
                             <img class="img-fluid" src="assets/images/img-3.png">
                             <div class="content">
@@ -192,9 +225,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 d-flex align-items-center">
+                    <div class="col-md-6 d-flex flex-column justify-content-between">
+                        <div class="my-4">
+                            <img class="img-fluid" src="assets/images/vector-3.png">
+                            <p class="title text-muted d-inline ms-3">LEARN ABOUT US</p>
+                        </div>
                         <div>
-                            <h3 class="title mb-5 text-start">Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <h3 class="title about-heading mb-md-5 mb-3  text-start">Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500</p>
                             <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                             
@@ -243,12 +280,12 @@
                             </div>
                             <div class="row mt-4">
                                 <div class="col-md-6">
-                                    <button class="btn mr-button-1 mb-3">CONTACT US</button>
+                                    <button class="btn mr-button-1 mb-3 mb-md-0" data-bs-toggle="modal" data-bs-target="#myModal">CONTACT US</button>
                                 </div>
                                 <div class="col-md-6">
-                                    <button class="btn mr-button-2 contact-button">
+                                    <a class="btn mr-button-2 contact-button" href="tel:+919051044044">
                                         <i class="fa fa-phone" aria-hidden="true"></i> (123)456-7890
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -262,23 +299,44 @@
     <section>
         <div class="container-fluid mr-section stats">
             <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="row mt-4">
+                <div class="col-md-12">
+                    <div class="row mt-4 d-none d-md-flex">
                         <div class="col-6 col-md-3 mb-3 mb-md-0">
-                            <h2 class="text-white text-center counter1">23K</h2>
+                            <h2 class="text-white text-center counter counter1">23K</h2>
                             <h6 class="text-white text-center">Learners &amp; Sounting</h6>
                         </div>
                         <div class="col-6 col-md-3 mb-3 mb-md-0">
-                            <h2 class="text-white text-center counter2">115K</h2>
+                            <h2 class="text-white text-center counter counter2">115K</h2>
                             <h6 class="text-white text-center">Total Courses</h6>
                         </div>
                         <div class="col-6 col-md-3 mb-3 mb-md-0">
-                            <h2 class="text-white text-center counter3">5</h2>
+                            <h2 class="text-white text-center counter counter3">5</h2>
                             <h6 class="text-white text-center">Languages</h6>
                         </div>
                         <div class="col-6 col-md-3 mb-3 mb-md-0">
-                            <h2 class="text-white text-center counter4">90%</h2>
+                            <h2 class="text-white text-center counter counter4">90%</h2>
                             <h6 class="text-white text-center">Successful Students</h6>
+                        </div>
+                    </div>
+
+                    <div class="carousel slide d-block d-md-none" data-bs-ride="carousel" data-bs-interval="1000">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <h2 class="text-white text-center counter counter1">23K</h2>
+                            <h6 class="text-white text-center">Learners &amp; Sounting</h6>
+                          </div>
+                          <div class="carousel-item">
+                            <h2 class="text-white text-center counter counter2">115K</h2>
+                            <h6 class="text-white text-center">Total Courses</h6>
+                          </div>
+                          <div class="carousel-item">
+                            <h2 class="text-white text-center counter counter3">5</h2>
+                            <h6 class="text-white text-center">Languages</h6>
+                          </div>
+                          <div class="carousel-item">
+                            <h2 class="text-white text-center counter counter4">90%</h2>
+                            <h6 class="text-white text-center">Successful Students</h6>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -287,10 +345,10 @@
     </section>
 
     <!-- Courses -->
-    <section>
-        <div class="container mr-section">
+    <section id="courses">
+        <div class="container mr-section course">
             <p class="text-center text-dark mt-5">VIEW OUR SERVICES</p>
-            <h3 class="title text-center mb-5">We Do the Best</h3>
+            <h3 class="title heading text-center mb-5">We Do the Best</h3>
             
             <!-- Swiper -->
             <div class="swiper courseSwiper">
@@ -464,7 +522,65 @@
     <section>
         <div class="container-fluid mr-section gallery">
             <div class="container">
-                <div class="row">
+                <h1 class="title text-white text-center my-5">Life At College</h1>
+                <div class="swiper gallerySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-1.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-2.png">
+                            </div>
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-3.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-4.png">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-5.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-6.png">
+                            </div>
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-7.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-8.png">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-1.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-2.png">
+                            </div>
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-3.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-4.png">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-5.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-6.png">
+                            </div>
+                            <div class="col-6 d-flex flex-column justify-content-between">
+                                <img class="img-fluid" src="assets/images/gimg-7.png">
+                                <img class="img-fluid mt-4" src="assets/images/gimg-8.png">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="row d-none">
                     <div class="col-md-3 mb-4">
                         <img class="img-fluid" src="assets/images/gimg-1.png">
                     </div>
@@ -500,9 +616,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3 class="title mb-5">Director Desk</h3>
-                        <p>There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour. There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour</p>
-                        <p>There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour. There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <h3 class="title heading my-5">Director Desk</h3>
+                        <p class="director-text">There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour. There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                        <p class="director-text">There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour. There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour There are many variations of passages of LoremIpsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     </div>
                 </div>
             </div>
@@ -527,10 +643,10 @@
     </section>
 
     <!-- Testimonial -->
-    <section>
+    <section id="testimonial">
         <div class="container-fluid mr-section testimonial py-5">
             <div class="container mr-section pb-md-5 pt-md-0 py-5">
-                <h3 class="title text-white text-center mb-5">Testimonials</h3>
+                <h3 class="title heading text-white text-center mb-5">Testimonials</h3>
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
@@ -541,22 +657,22 @@
                       <div class="carousel-item">
                         <div class="row justify-content-center px-md-5 px-0">
                             <img class="img-fluid testimonial-avatar" src="assets/images/avatar-1.png">
-                            <h6 class="text-white text-center my-4">JONE SMITH</h6>
-                            <p class="text-white text-center px-md-5 px-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
+                            <h5 class="text-white text-center my-4">JONE SMITH</h5>
+                            <p class="text-white text-muted text-center px-md-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
                         </div>
                       </div>
                       <div class="carousel-item active carousel-item-start">
                         <div class="row justify-content-center px-md-5 px-0">
                             <img class="img-fluid testimonial-avatar" src="assets/images/avatar-1.png">
-                            <h6 class="text-white text-center my-4">JONE SMITH</h6>
-                            <p class="text-white text-center px-md-5 px-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
+                            <h5 class="text-white text-center my-4">JONE SMITH</h5>
+                            <p class="text-white text-muted text-center px-md-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
                         </div>
                       </div>
                       <div class="carousel-item carousel-item-next carousel-item-start">
                         <div class="row justify-content-center px-md-5 px-0">
                             <img class="img-fluid testimonial-avatar" src="assets/images/avatar-1.png">
-                            <h6 class="text-white text-center my-4">JONE SMITH</h6>
-                            <p class="text-white text-center px-md-5 px-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
+                            <h5 class="text-white text-center my-4">JONE SMITH</h5>
+                            <p class="text-white text-muted text-center px-md-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
                         </div>
                       </div>
                     </div>
@@ -567,8 +683,8 @@
 
     <!-- Our Recognition -->
     <section>
-        <div class="container mr-section">
-            <h3 class="title text-center mr-section mb-5">Our Recognition</h3>
+        <div class="container mr-section mb-5">
+            <h1 class="title text-center mr-section mb-5">Our Recognition</h1>
             <div class="recognition-wrapper">
                 <div class="recognition-track">
                     <div class="recognition">
@@ -598,12 +714,12 @@
     </section>
 
     <!-- FAQ -->
-    <section>
-        <div class="container">
+    <section id="faq">
+        <div class="container faq">
             <div class="row justify-content-between">
-                <div class="col-md-6 d-flex flex-column justify-content-between">
+                <div class="col-md-7 d-flex flex-column justify-content-between">
                     <div class="w-100">
-                        <h3 class="title my-5">Frequently asked questions</h3>
+                        <h3 class="title heading my-5">Frequently asked questions</h3>
                         <div class="accordion mt-md-5 w-100" id="accordionExample">
                             <div class="accordion-item">
                                 <div class="accordion-header" id="headingOne">
@@ -716,7 +832,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 faq_img d-flex align-items-end">
+                <div class="col-md-5 faq_img d-flex align-items-end">
                     <img class="img-fluid" src="assets/images/img-1.png">
                 </div>
             </div>
@@ -726,15 +842,16 @@
     <!-- Contact Us -->
     <section>
         <div class="container-fluid mr-section contact">
-            <div class="container">
+            <div class="container mr-section">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3 class="title text-white">Contact us for more details</h3>
+                        <h1 class="title text-white d-none d-md-block">Contact us for more details</h1>
+                        <h1 class="title text-white text-start d-block d-md-none mb-3">Contact us for more details</h1>
                     </div>
                     <div class="col-md-6 d-flex justify-content-end">
                         <div>
-                            <button class="btn btn-outline-light mr-button call-to-action mx-2 mb-3 mb-md-0">Call Us</button>
-                            <button class="btn btn-outline-light mr-button call-to-action mx-2">What’s App Us</button>
+                            <a href="tel:+919051044044" class="btn btn-outline-light mr-button call-to-action mx-2 mb-3 mb-md-0">Call Us</a>
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=+919051044044" class="btn btn-outline-light mr-button call-to-action mx-2">What’s App Us</a>
                         </div>
                     </div>
                 </div>
@@ -743,9 +860,9 @@
     </section>
 
     <!-- Our Blogs -->
-    <section>
-        <div class="container mr-section">
-            <h3 class="title text-center my-5">Our Blogs</h3>
+    <section id="blog">
+        <div class="container mr-section blog">
+            <h3 class="title heading text-center my-5">Our Blogs</h3>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card border-0 blog">
@@ -803,7 +920,7 @@
                     </div>
                     <div class="col-md-6 d-flex align-items-center">
                         <div>
-                            <h3 class="title text-start text-white mb-5">Why Choose us?</h3>
+                            <h1 class="title text-start text-white my-5 mb-md-5">Why Choose us?</h1>
                             
                             <span class="d-flex">
                                 <i class="fa fa-circle me-3 mt-1"></i>
@@ -824,45 +941,10 @@
         </div>
     </section>
 
-    <!-- Our College -->
-    <section class="d-none">
-        <div class="container-fluid mr-section">
-            <div class="container">
-                <h3 class="title-2 text-center mb-5 text-uppercase">Our group of Colleges</h3>
-  
-                <div class="partner-wrapper">
-                    <div class="partner-track">
-                        <div class="partner">
-                            <img src="assets/images/college-1.png" class="img-fluid">
-                        </div>
-                        <div class="partner">
-                            <img src="assets/images/college-2.png" class="img-fluid">
-                        </div>
-                        <div class="partner">
-                            <img src="assets/images/college-3.png" class="img-fluid">
-                        </div>
-                        <div class="partner">
-                            <img src="assets/images/college-4.png" class="img-fluid">
-                        </div>
-                        <div class="partner">
-                            <img src="assets/images/college-1.png" class="img-fluid">
-                        </div>
-                        <div class="partner">
-                            <img src="assets/images/college-2.png" class="img-fluid">
-                        </div>
-                        <div class="partner">
-                            <img src="assets/images/college-3.png" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Our Recognition -->
     <section>
         <div class="container mr-section">
-            <h3 class="title text-center mr-section mb-5">Our All Colleges</h3>
+            <h1 class="title text-center mr-section mb-5">Our All Colleges</h1>
             <div class="partner-wrapper">
                 <div class="partner-track">
                     <div class="partner">
@@ -902,12 +984,12 @@
     <section>
         <div class="container-fluid brochure">
             <div class="row">
-                <div class="col-md-8 px-md-5 py-4">
-                    <h5 class="title text-dark">Lorem Ipsum is simply dummy text of the printing
-                        typesetting. simply dummy text of the printing.</h5>
+                <div class="col-md-8 px-md-5 py-4 d-none d-md-block">
+                    <h3 class="title text-dark px-5">Lorem Ipsum is simply dummy text of the printing
+                        typesetting. simply dummy text of the printing.</h3>
                 </div>
                 <div class="col-md-4 brochure-1 py-3 d-flex justify-content-center align-items-center">
-                    <a href="#" class="title text-white text-center">DOWNLOAD BROCHURE</a>
+                    <a href="assets/brochure.pdf" download class="title text-white text-center">DOWNLOAD BROCHURE</a>
                 </div>
             </div>
         </div>
@@ -921,18 +1003,30 @@
                     <div class="col-md-12">
                         <ul class="nav justify-content-start justify-content-md-center">
                             <li class="nav-item">
-                                <p class="nav-link active text-uppercase text-white" style="cursor: pointer;" aria-current="page" data-toggle="modal" data-target="#myModal">Home</p>
+                                <a class="nav-link text-uppercase" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <p class="nav-link text-uppercase text-white" style="cursor: pointer;" data-toggle="modal" data-target="#myModal">About Us</p>
+                                <a class="nav-link text-uppercase" href="#about">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <p class="nav-link text-uppercase text-white" style="cursor: pointer;" data-toggle="modal" data-target="#myModal">Course</p>
+                                <a class="nav-link text-uppercase" href="#notice">Notice</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#courses">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#faq">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#testimonial">Testimonial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#blog">Blog</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-12 px-md-5">
-                        <div class="row my-5 px-md-5">
+                        <div class="row justify-content-center my-5 px-md-5">
                             <div class="col-md-1 mb-3 mb-md-0 text-center">
                                 <img class="img-fluid contact-icon" src="assets/images/icon-location.png">
                             </div>
@@ -941,7 +1035,7 @@
                                     Taki Road,(Opposite-Karmatirtha, Old Electric Office),<br>
                                     Barasat, Kol-124</p>
                             </div>
-        
+  
                             <div class="col-md-1 mb-3 mb-md-0 text-center">
                                 <a href="tel:+919051044044">
                                     <img class="img-fluid contact-icon" src="assets/images/icon-call.png">
@@ -952,8 +1046,8 @@
                                     <p class="text-white">+91 90510 44044</p>
                                 </a>
                             </div>
-        
-        
+  
+  
                             <div class="col-md-1 mb-3 mb-md-0 text-center">
                                 <a href="mailto:mrgroupadmission@gmail.com">
                                     <img class="img-fluid contact-icon" src="assets/images/icon-email.png">
@@ -967,7 +1061,7 @@
                         </div>
                     </div>
                 </div>
-
+  
             </div>
         </footer>
         <div class="copyright">
@@ -980,8 +1074,8 @@
         <div class="modal-dialog modal-md">
             <div class="modal-content">
                 <!-- Modal Header -->
-                <div class="modal-header" style="background-color: #00AFD7;">
-                    <h4 class="modal-title text-dark">Enquire Now</h4>
+                <div class="modal-header" style="background: linear-gradient(118.04deg, #230023 0%, #1D5CA9 90.35%);">
+                    <h4 class="modal-title text-white">Enquire Now</h4>
                 </div>
 
                 <!-- Modal body -->
@@ -989,19 +1083,19 @@
                     <form action="handler.php" method="POST">
                         <div class="form-group mb-1">
                             <label>Full Name</label>
-                            <input type="text" class="form-control mr-input" name="name">
+                            <input type="text" class="form-control mr-input" name="name" required>
                         </div>
                         <div class="row mb-1">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Youe Email Address</label>
-                                    <input type="text" class="form-control mails_input mr-input" name="email">
+                                    <input type="email" class="form-control mails_input mr-input" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Invalid email address" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Your Phone Number</label>
-                                    <input type="text" class="form-control mail_input mr-input" name="phone" required maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits">
+                                    <input type="text" class="form-control mail_input mr-input" name="phone" maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits" required>
                                 </div>
                             </div>
                         </div>
@@ -1018,25 +1112,43 @@
                         </div>
                         <div class="form-group mb-1">
                             <label>Message</label>
-                            <textarea rows="5" class="form-control mr-input" name="message"></textarea>
+                            <textarea rows="5" class="form-control mr-input" name="message" required></textarea>
                         </div>
                         <div class="text-end">
-                            <button class="btn button-3 text-uppercase mt-2">SEND ENQUARY</button>
+                            <button class="btn mt-4" style="font-weight: 500; height: 50px; background: linear-gradient(118.04deg, #230023 0%, #1D5CA9 90.35%); color: white;">SEND ENQUARY</button>
                         </div>
                     </form>
                 </div>
                 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
                 
             </div>
         </div>
     </div>
 
+    <div class="d-none d-md-block">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=+919051044044" class="whatsapp-mobile-button"><i
+                	class="fab fa-whatsapp"></i></a>
+        <a href="#" class="enquiry-button" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-question"></i></a>
+    </div>
+    
+    <nav class="mobile-footer navbar navbar-expand fixed-bottom d-flex d-md-none justify-content-center p-0" style="background-color: white !important;">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=+919051044044" class="whatsapp-mobile-button">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+                	
+        <a target="_blank" href="tel:+919051044044" class="w-50">
+            <button class="btn w-100" style="font-weight: 500; height: 50px; background: linear-gradient(118.04deg, #230023 0%, #1D5CA9 90.35%); color: white;">CALL NOW</button>
+        </a>
 
-    <script src="https://code.jquery.com/jquery-3.6.4.slim.js"
+        <button data-bs-toggle="modal" data-bs-target="#myModal" class="btn w-50 ms-1" style="height: 50px; background: linear-gradient(330.04deg, #230023 0%, #1D5CA9 90.35%); color: white;">ENQUIRE NOW</button>
+    </nav>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
         integrity="sha256-dWvV84T6BhzO4vG6gWhsWVKVoa4lVmLnpBOZh/CAHU4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
@@ -1047,6 +1159,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
+
+    <script type="text/javascript" src="assets/counter/jquery.counterup.min.js"></script>
+    <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js">	</script>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <script>
@@ -1080,6 +1196,55 @@
                 },
             }
         });
+        var swiper = new Swiper(".gallerySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                infinity: true
+            },
+            breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            1024: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+        }
+        });
+
+        const counterUp = window.counterUp.default
+        const callback = entries => {
+                entries.forEach(entry => {
+                    const el = entry.target
+                    if (entry.isIntersecting && !el.classList.contains('is-visible')) {
+                        counterUp(el, {
+                            duration: 2000,
+                            delay: 16,
+                        })
+                        el.classList.add('is-visible')
+                    }
+                })
+            }
+
+            const IO = new IntersectionObserver(callback, { threshold: 1 })
+
+            const el1 = document.querySelector('.counter1')
+            IO.observe(el1)
+
+            const el2 = document.querySelector('.counter2')
+            IO.observe(el2)
+
+            const el3 = document.querySelector('.counter3')
+            IO.observe(el3)
+
+            const el4 = document.querySelector('.counter4')
+            IO.observe(el4)
     </script>
 </body>
 
